@@ -49,7 +49,7 @@ try:
             subject=sub,
             )
         message.template_id = TEMPLATE_ID
-        sg = SendGridAPIClient('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')
+        sg = SendGridAPIClient('########')
         response = sg.send(message)
         print(response.status_code)
 except Exception as e:
